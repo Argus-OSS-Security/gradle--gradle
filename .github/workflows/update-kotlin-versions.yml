@@ -1,11 +1,12 @@
 name: Update tested Kotlin versions
 
-on:
-  workflow_dispatch:
-  schedule:
-    # Every Saturday at 20:00 UTC
-    - cron: '0 20 * * 6'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     # Every Saturday at 20:00 UTC
+#     - cron: '0 20 * * 6'
+# 
 permissions: {}
 
 jobs:

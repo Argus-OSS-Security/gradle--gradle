@@ -1,10 +1,11 @@
 name: Auto update test buckets
 
-on:
-  schedule:
-    - cron: '42 2 * * 1' # Every monday 2:42am UTC
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: '42 2 * * 1' # Every monday 2:42am UTC
+#   workflow_dispatch:
+# 
 permissions:
   contents: write
   id-token: write

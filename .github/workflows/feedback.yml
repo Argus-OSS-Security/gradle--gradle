@@ -1,10 +1,11 @@
 name: Feedback
 
-on:
-  schedule:
-    - cron: '0 * * * *' # every hour
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: '0 * * * *' # every hour
+#   workflow_dispatch:
+# 
 permissions: {}
 
 jobs:

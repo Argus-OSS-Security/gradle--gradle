@@ -1,12 +1,13 @@
 name: Close linked issues when PR merged into release
 
-on:
-  pull_request:
-    types: [closed]
-    branches:
-      - release
-      - release8x
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     types: [closed]
+#     branches:
+#       - release
+#       - release8x
+# 
 permissions:
   issues: write
 

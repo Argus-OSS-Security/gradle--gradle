@@ -2,10 +2,11 @@ name: Label PRs reviewed by bt-cortex
 
 # The `@cortex`-labeled PRs are expected to be picked up by Project automation of the Cortex Board.
 
-on:
-  pull_request_target:
-    types: [review_requested, review_request_removed]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request_target:
+#     types: [review_requested, review_request_removed]
+# 
 permissions: {}
 
 jobs:

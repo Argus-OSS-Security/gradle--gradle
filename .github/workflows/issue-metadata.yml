@@ -1,9 +1,10 @@
 name: Check issues metadata
 
-on:
-  issues:
-    types: [ opened, labeled, unlabeled, closed, reopened, milestoned, demilestoned ]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issues:
+#     types: [ opened, labeled, unlabeled, closed, reopened, milestoned, demilestoned ]
+# 
 permissions: {}
 
 jobs:

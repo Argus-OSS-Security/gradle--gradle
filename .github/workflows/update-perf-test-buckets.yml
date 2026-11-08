@@ -1,10 +1,11 @@
 name: Auto update performance test durations JSON
 
-on:
-  schedule:
-    - cron: '53 3 * * 1'
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: '53 3 * * 1'
+#   workflow_dispatch:
+# 
 permissions:
   contents: write
   id-token: write

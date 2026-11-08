@@ -1,10 +1,11 @@
 name: IDE Experience team notifier
 run-name: Notify the IDE Experience team about new RCs for manual testing
-on:
-  push:
-    tags:
-      - 'v*.*.*-RC1'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     tags:
+#       - 'v*.*.*-RC1'
+# 
 permissions: {}
 
 jobs:

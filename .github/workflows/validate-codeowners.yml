@@ -1,12 +1,13 @@
 name: "Check CODEOWNERS file"
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+#   pull_request:
+#   workflow_dispatch:
+# 
 permissions: { }
 
 jobs:

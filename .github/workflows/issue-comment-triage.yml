@@ -1,9 +1,10 @@
 name: Comment on a closed issue
 
-on:
-  issue_comment:
-    types: [created]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issue_comment:
+#     types: [created]
+# 
 jobs:
   reconsider_closed_issue:
     runs-on: ubuntu-latest

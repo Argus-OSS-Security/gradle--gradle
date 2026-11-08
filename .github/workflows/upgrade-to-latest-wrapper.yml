@@ -1,10 +1,11 @@
 name: Upgrade to latest wrapper
 
-on:
-  schedule:
-    - cron: '0 4 * * *'
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: '0 4 * * *'
+#   workflow_dispatch:
+# 
 permissions:
   contents: write
 
